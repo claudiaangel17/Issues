@@ -69,4 +69,5 @@ jobs:
           git checkout -b $BRANCH
 
           echo "Update index.html"
-          sed -i.bak 's/Game over](#) ▋'
+          sed -i.bak 's/Game over](#) ▋/New Text/g' filename
+
